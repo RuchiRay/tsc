@@ -36,4 +36,10 @@
     top: -22%;
     /* transform: rotate(300deg) translateX(-50%); */
   }
+  .curved-title{
+    /* @apply text-red-950, @apply text-xl, font-american, absolute,  -right-8 */
+    @apply text-red-950 text-xl font-american absolute -right-8;
+    transform: translateX(-36px) rotate(60deg) ;
+    
+  }
 }
