@@ -12,11 +12,28 @@
     /* font-family: "Montserrat"; */
     /* font-family: "American Typewriter"; */
     /* @apply font-american; */
-    @apply font-montserrat
+    @apply font-montserrat;
   }
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+@layer components {
+  .curved {
+    border-radius: 53%/100px 100px 0 0;
+    
+  }
+  .line {
+    width: 300px;
+    height: 100px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    position: absolute;
+    left: 47%;
+    top: -22%;
+    /* transform: rotate(300deg) translateX(-50%); */
   }
 }
