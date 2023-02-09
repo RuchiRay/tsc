@@ -26,13 +26,13 @@ const LandingPage = () => {
         initial={{ opacity: 0, marginTop: 100 }}
         animate={{ opacity: 1, marginTop: 60 }}
         transition={{ duration: 1 }}
-        className="flex justify-center mt-[3.75rem] font-bold text-4xl"
+        className="flex px-12 flex-wrap items-center justify-center mt-[3.75rem] font-semibold text-base sm:text-2xl lg:text-4xl"
       >
         <p>Creativity. Collaboration. </p>
         <p className="text-red-950">&nbsp; A pinch of</p>
         <p>&nbsp; STUPID*</p>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, width: "100%" }}
         animate={{ opacity: 1, width: "824px" }}
         transition={{ duration: 1 }}
@@ -113,7 +113,7 @@ const LandingPage = () => {
             </div>
           </motion.div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
