@@ -82,11 +82,17 @@ const LandingPage = () => {
             <div className="absolute text-4xl bottom-[3rem] left-4 rotate-45">
               <MdOutlineKeyboardArrowDown />
             </div>
-            <p className="text-red-950 text-xl font-american absolute rotate-[60deg] -right-8">
-              we are here...
-            </p>
           </div>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, }}
+          animate={{ opacity: 1, }}
+          transition={{ duration: 0.2, delay: 1.4 }}
+          className="text-red-950 text-xl font-american absolute left-[56%] -top-[13%]"
+        >
+          we are here...
+        </motion.p>
 
         <div className="w-[31.25rem] peer-hover/circle:scale-[0.8] transition-all duration-1000 peer-hover/circle:opacity-50 pr-20 justify-end flex items-center absolute top-0 right-0  h-[31.25rem] rounded-full border-black border-2">
           <motion.div
