@@ -32,7 +32,7 @@ const LandingPage = () => {
         <p className="text-red-950">&nbsp; A pinch of</p>
         <p>&nbsp; STUPID*</p>
       </motion.div>
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0, width: "100%" }}
         animate={{ opacity: 1, width: "824px" }}
         transition={{ duration: 1 }}
@@ -113,7 +113,7 @@ const LandingPage = () => {
             </div>
           </motion.div>
         </div>
-      </motion.div> */}
+      </motion.div>
     </div>
   );
 };

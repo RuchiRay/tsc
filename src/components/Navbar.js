@@ -13,14 +13,14 @@ const Navbar = () => {
     <div className="w-full relative items-center flex px-12 md:px-20 lg:px-[9.375rem] justify-between h-[7.5rem] py-8">
       <Logo />
       <div
-        className={`${
-          isOpen && "opacity-100 "
-        } w-full md:w-max left-0 px-12 top-[7.5rem] gap-4 transition-all duration-500 absolute  md:flex-row bg-white md:static flex flex-col  md:gap-10 md:items-center opacity-0 md:opacity-100 text-base md:text-xl font-medium`}
-        // className={
-        //   isOpen
-        //     ? "origin-center  px-12 opacity-100 transition-all duration-1000 top-[7.5rem] gap-4 bg-white absolute  text-base  font-medium"
-        //     : "md:flex-row absolute top-[7.5rem] px-12 w-full left-0 opacity-0 md:opacity-100 md:static md:text-xl  md:gap-10 md:items-center"
-        // }
+        // className={`${
+        //   isOpen && "opacity-100 "
+        // } w-full md:w-max left-0  px-12 top-[7.5rem] gap-4 transition-all duration-500 absolute  md:flex-row bg-white md:static flex flex-col  md:gap-10 md:items-center  md:opacity-100 text-base md:text-xl font-medium`}
+        className={
+          isOpen
+            ? "px-12 opacity-100 w-full left-0 transition-all duration-500 top-[7.5rem] gap-4 bg-white absolute flex flex-col  text-base  font-medium"
+            : "md:flex-row flex md:w-max absolute top-[7.5rem] px-12 md:px-0 w-full left-0 opacity-0 md:opacity-100 md:static md:text-xl  md:gap-10 md:items-center"
+        }
       >
         <p>Work</p>
         <p>Services</p>
